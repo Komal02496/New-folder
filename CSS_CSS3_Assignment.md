@@ -1,3 +1,4 @@
+
 ## Que 1. What are the benefits of using CSS?
 
 #### Ans
@@ -44,25 +45,23 @@
 
 CSS style components are below...
 
-1. **``background-color``** : Specifies the background color of an element.
+1. **``Selector``**: Class name, id name or element name that is target
 
-2. **``background-image``** : Specifies one or more background images for an element.
+2. **``Attribute``**: Name of the attribute you want to style for example border, color, background, position etc.
 
-3. **``box-shadow``** : Attaches one or more shadows to an element.
+3. **``Value of Property``**: value that will be assigned to attribute.
 
-4. **``color``** : Sets the color of text.
+```css
+p{
+    color: pink;
+    text-align: center;
+}
+```
 
-5. **``font-family``** : Specifies the font family for text.
+In this example **``p``** is selector, following style rules will be applied to all paragraph.
 
-6. **``font-size``** : Specifies the font size of text.
-
-7. **``height``** : Sets the height of an element.
-
-8. **``margin``** : 	Sets all the margin properties in one declaration.
-
-9. **``min-width``** : Sets the minimum width of an element.
-
-10. **``opacity``** : Sets the opacity level for an element.
+1. color is a attribute and pink is a value.
+2. text-align is a attribute and center is a value.
 
 <hr>
 
@@ -474,7 +473,14 @@ Center block elements using margin property: We need to specify the margin from 
 
 #### Ans
 
-The CSS specifications are maintained by the **``World Wide Web Consortium (W3C)``**.
+The CSS specifications are maintained by the **``World Wide Web Consortium (W3C)``**.The Specification defines how CSS properties should be implemented by browser vendors along with detailed algorithms, code samples and tabular information.
+The Specification also include:
+
+1. The syntax and data types of the language
+2. Detailed explanation on CSS Selectors
+3. How you can assign values to properties
+4. How inheritance works
+5. The Box Model e.t.c
 
 <hr>
 
@@ -651,7 +657,12 @@ For Example :
 </html>
 
 ```
-In this example **``h1``** is **``html teg``** and **``color, text-align, backgroundcolor``** style the element with a property and value.
+
+1. The whole thing is a ruleset.
+2. The curly braces and everything inside is a declaration block.
+3. The bit before the opening curly brace is a selector.In this example **``h1``** is a selector.
+4. Each value pair, as separated by a colon and ending in a semicolon, is a declaration.
+5. In those value pairs, the key is a  property name, and the value is a property value.
 
 <hr>
 
